@@ -1,10 +1,7 @@
 <template>
 <body>
+    <NavBar />
   <div>
-  <b-navbar toggleable="lg" type="dark" variant="info">
-    <b-navbar-brand href="#">MinorAI</b-navbar-brand>
-  </b-navbar>
-
   <div class="box-center">
         <h1 class="box-title">Login Form</h1>
         <form method="POST" class="box-form">
@@ -31,11 +28,13 @@
 
 </template>
 <script>
+import NavBar from '@/components/NavBar.vue'
 export default {
+components: {NavBar},
     methods: {
         login(){
           this.$router.replace('/home')
-        }
+        },
     }
 }
 </script>
