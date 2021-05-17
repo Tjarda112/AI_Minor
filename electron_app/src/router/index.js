@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Auth from '@/views/Auth.vue'
+import Auth from '@/views/Auth-login.vue'
+import AuthRegister from '@/views/Auth-register.vue'
 import Home from '@/views/Home.vue'
 import Camera from '@/views/Camera.vue'
 
@@ -8,9 +9,14 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/',
-    name: 'Auth',
+    path: '/login',
+    name: 'Auth-login',
     component: Auth
+  },
+  {
+    path: '/register',
+    name: 'Auth-register',
+    component: AuthRegister
   },
   {
     path: '/home',

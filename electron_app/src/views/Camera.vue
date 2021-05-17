@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-navbar toggleable="lg" type="dark" variant="info">
-      <b-navbar-brand href="#">MinorAI</b-navbar-brand>
+      <b-navbar-brand href="home">MinorAI</b-navbar-brand>
     </b-navbar>
     <div id="video_box" class="center">
       <div class="rounded video_overlay">

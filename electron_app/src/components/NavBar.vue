@@ -13,3 +13,22 @@ export default {
     }
 }
 </script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+li.nav-item {
+    float:right;
+}
+
+.navbar-expand-lg {
+    justify-content: space-between; 
+}
+
+.bg-info {
+    background-color :blue !important;
+}
+
+a {
+    color: white;
+}
+</style>
