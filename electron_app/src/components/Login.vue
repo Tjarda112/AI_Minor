@@ -1,6 +1,5 @@
 <template>
 <body>
-    <NavBar />
   <div>
   <div class="box-center">
         <h1 class="box-title">Login Form</h1>
@@ -28,9 +27,7 @@
 
 </template>
 <script>
-import NavBar from '@/components/NavBar.vue'
 export default {
-components: {NavBar},
     methods: {
         login(){
           this.$router.replace('/home')

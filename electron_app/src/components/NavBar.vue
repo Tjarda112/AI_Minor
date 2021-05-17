@@ -25,10 +25,13 @@ li.nav-item {
 }
 
 .bg-info {
-    background-color :blue !important;
+    background-color :white !important;
 }
 
 a {
-    color: white;
+    color: black;
+}
+.navbar-brand{
+    color:black;
 }
 </style>
